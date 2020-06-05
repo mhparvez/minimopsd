@@ -1,0 +1,263 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Playfair Display;
+}
+.wrapper{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.wrapper2{
+    width: 80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+/*header start*/
+header{
+    padding: 20px 0px;
+}
+.logo{
+    float: left;
+    width: 11%;
+    padding-top: 12px;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    overflow: hidden;
+    float: right;
+    max-width: 70%;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+   float: left;
+    list-style: none;
+    
+}
+.menu ul li a{
+    margin: 0 60px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#666666;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li a:hover{
+ border-bottom: 1px solid #666666;
+}
+.menu nav ul li:last-child a{
+    margin-right: 0px;
+}
+/*header end*/
+/*banner start*/
+.bg_img img{
+    width: 100%;
+}
+/*banner end*/
+/*text section start*/
+.alltext{
+    margin-top: 60px;
+}
+.text h3{
+    font-family:Ubuntu;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    margin-bottom: 30px;
+}
+.text h2{
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.text p{
+    color:#626262;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+/*text image start*/
+.img1{
+    width:46%;
+    overflow: hidden;
+    float: left;
+    margin-bottom:80px;
+}
+.img1 img{
+    width: 100%;
+}
+.img1 h3{
+    font-family:Ubuntu;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#b4ad9e;
+}
+.img1 h2{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+.img1 p{
+    color:#626262;
+    font-size: 15px;
+}
+.img2{
+    width:46%;
+    overflow: hidden;
+    float: right;
+    margin-bottom:80px;
+    font-weight: 400;
+}
+.img2 img{
+    width: 100%;
+}
+.img2 h3{
+    font-family:Ubuntu;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    font-weight: 400;
+}
+.img2 h2{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+.img2 p{
+    color:#626262;
+    font-size: 15px;
+}
+.img3{
+    width:46%;
+    overflow: hidden;
+    float: left;
+}
+.img3 img{
+    width: 100%;
+}
+.img3 h3{
+    font-family:Ubuntu;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#b4ad9e;
+}
+.img3 h2{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+.img3 p{
+    color:#626262;
+    font-size: 15px;
+}
+.img4{
+    width:46%;
+    overflow: hidden;
+    float: right;
+}
+.img4 img{
+    width: 100%;
+}
+.img4 h3{
+    font-family:Ubuntu;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#b4ad9e;
+}
+.img4 h2{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+.img4 p{
+    color:#626262;
+    font-size: 15px;
+}
+.text_img2{
+    margin-bottom: 100px;
+}
+/*text image end*/
+.newsletter{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.newsletter h1{
+    font-size: 30px;
+    color: #333333;
+    margin: 70px 0px;
+}
+.form1 input{
+    background: transparent;
+    border: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    width: 270px;
+    outline: none;
+}
+.newsletter button{
+    padding: 11px 10px;
+    border-style: none;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #000;
+    margin-left: -4px;
+    cursor: pointer;
+    outline: none;
+    margin-right: -8px;
+}
+.newsletter button a{
+    font-family:Playfair Display;
+    font-size: 18px;
+}
+.endimage{
+    margin-top: 80px;
+}
+.loadmore{
+    text-align: center;
+}
+.loadmore button{
+    font-family:Playfair Display;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+.terms p{
+    font-family:Playfair Display;
+    font-size: 16px;
+    margin-top: 37px;
+}
+.terms ul li{
+    font-family:Playfair Display;
+    list-style: none;
+    float: left;
+    padding-right: 16px;
+}
+.socialicon{
+    float: right;
+    overflow: hidden;
+}
+.socialicon ul li{
+    padding: 30px 25px;
+    list-style: none;
+    float: left;
+}
+.socialicon ul li p{
+    font-family:Playfair Display;
+    font-size: 16px;
+    margin-top: -2px;
+}
+footer{
+    background-color: #f0f0f0;
+    padding: 25px 0px;
+}
+.terms ul li a{
+    text-decoration: none;
+    color: #626262;
+}
